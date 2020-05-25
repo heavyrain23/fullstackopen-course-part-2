@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
+import CountriesList from './components/CountriesList'
 
 const App = () => {
 	const [countries, setCountries] = useState([])
@@ -18,8 +19,9 @@ const handleFilterChange = (event) => {
 	setFilter(event.target.value)
 }
 
-
-
+const showCountyButtonHandler = (event) => {
+	setFilter(event.target.attributes.country.value)
+}
 
 
 return (
@@ -34,6 +36,9 @@ return (
 				<button type='submit'>Search</button>
 			</div>
 		</form>
+	<CountriesList countries={countries}
+				   filter={filter} 
+				   showCountyButtonHandler = {showCountyButtonHandler} />
 	</div>
 	)
 }
