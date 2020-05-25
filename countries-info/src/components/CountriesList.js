@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 
-const CountriesList = ({countries,filter, showCountyButtonHandler}) => {
+const CountriesList = ({countries,showCountyButtonHandler}) => {
 
     const showCountries = () => countries.map(country => 
-    <li key = {country.name}>{country.name}<button onClick = {showCountyButtonHandler}>show</button></li>
+    <li key = {country.name}>{country.name}<button onClick = {showCountyButtonHandler} country={country.name}>show</button></li>
     )
 
     return (
