@@ -1,6 +1,11 @@
 import React from 'react'
 import Country from './Country'
 import CountriesList from './CountriesList'
+import styled from 'styled-components'
+
+const Warning = styled.p`
+    color: #bb0631;
+`
 
 const ShowCountries = ({countries, filter, showCountyButtonHandler}) => {
 
@@ -19,7 +24,7 @@ const ShowCountries = ({countries, filter, showCountyButtonHandler}) => {
     } 
 
     if (countriesToDisplay.length > 10) {
-        return ( <div>To much options</div> )
+        return ( <Warning>To much options!</Warning> )
     }
         
     return (

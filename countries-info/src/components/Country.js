@@ -1,28 +1,55 @@
 import React from 'react'
+import styled from 'styled-components'
 
-const Country = ({country}) => {
+const CountyContainer = styled.div`
+    margin: 0 auto;
+    padding-top: 10px
+    weight: 300px;
+`;
 
-    const languages = () => 
+const Title = styled.h1`
+    font-size: 20px;
+    text-transform: uppercase;   
+   
+`;
+
+const MainText = styled.p`
+    text-transform: uppercase;  
+    font-weight: 10px;
+     
+`;
+
+
+
+
+
+
+
+const Country = ({ country }) => {
+
+    const languages = () =>
         country.languages.map(language =>
-            <li key = {language.iso639_1}>{language.name} </li>)
-    
-    
-   return (
-       <>
-       <div>
-           <h2>{country.name}</h2>
-           <p>
-                Region: {country.region} <br/>
-			    Capital city: {country.capital} <br />
-			    Populatin: {country.population}
-           </p>
-           <h3>Languages</h3>
-           {languages()}
-       </div>
-       <br />
-       <img src={country.flag} alt={country.name} width="100px" />
-       </>
-   )
+            <li key={language.iso639_1}>{language.name} </li>)
+
+
+    return (
+        <CountyContainer>
+            
+                <Title>{country.name}</Title>
+                
+                  Region: {country.region}  <br/>
+                  Capital city: {country.capital} <br/>
+                  Populatin: {country.population}
+
+                    <h3>Languages</h3>
+                    {languages()}
+       
+                <br />
+                
+                <img src={country.flag} alt={country.name} width="140px" />
+                
+        </CountyContainer>
+    )
 
 }
 
