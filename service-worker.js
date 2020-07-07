@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fullstackopen-course-part-2/precache-manifest.56054c2b2d4bc645f9c57046bb187fbe.js"
+  "/fullstackopen-course-part-2/countries-info/precache-manifest.43bff8b9640b0921717af1633aa27df3.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/fullstackopen-course-part-2/index.html", {
+workbox.routing.registerNavigationRoute("/fullstackopen-course-part-2/countries-info/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

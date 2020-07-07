@@ -1,11 +1,11 @@
 {
-  "main.js": "/fullstackopen-course-part-2/static/js/main.8d36e1ee.chunk.js",
-  "main.js.map": "/fullstackopen-course-part-2/static/js/main.8d36e1ee.chunk.js.map",
-  "runtime~main.js": "/fullstackopen-course-part-2/static/js/runtime~main.42f78327.js",
-  "runtime~main.js.map": "/fullstackopen-course-part-2/static/js/runtime~main.42f78327.js.map",
-  "static/js/2.724d8ed9.chunk.js": "/fullstackopen-course-part-2/static/js/2.724d8ed9.chunk.js",
-  "static/js/2.724d8ed9.chunk.js.map": "/fullstackopen-course-part-2/static/js/2.724d8ed9.chunk.js.map",
-  "index.html": "/fullstackopen-course-part-2/index.html",
-  "precache-manifest.56054c2b2d4bc645f9c57046bb187fbe.js": "/fullstackopen-course-part-2/precache-manifest.56054c2b2d4bc645f9c57046bb187fbe.js",
-  "service-worker.js": "/fullstackopen-course-part-2/service-worker.js"
+  "main.js": "/fullstackopen-course-part-2/countries-info/static/js/main.8d36e1ee.chunk.js",
+  "main.js.map": "/fullstackopen-course-part-2/countries-info/static/js/main.8d36e1ee.chunk.js.map",
+  "runtime~main.js": "/fullstackopen-course-part-2/countries-info/static/js/runtime~main.62c974b0.js",
+  "runtime~main.js.map": "/fullstackopen-course-part-2/countries-info/static/js/runtime~main.62c974b0.js.map",
+  "static/js/2.cf6c6375.chunk.js": "/fullstackopen-course-part-2/countries-info/static/js/2.cf6c6375.chunk.js",
+  "static/js/2.cf6c6375.chunk.js.map": "/fullstackopen-course-part-2/countries-info/static/js/2.cf6c6375.chunk.js.map",
+  "index.html": "/fullstackopen-course-part-2/countries-info/index.html",
+  "precache-manifest.43bff8b9640b0921717af1633aa27df3.js": "/fullstackopen-course-part-2/countries-info/precache-manifest.43bff8b9640b0921717af1633aa27df3.js",
+  "service-worker.js": "/fullstackopen-course-part-2/countries-info/service-worker.js"
 }
